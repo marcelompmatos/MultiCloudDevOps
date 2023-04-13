@@ -32,7 +32,7 @@
 
 ⚡ [NEW] AWS has recently changed the way to create/download the access key. Follow the new steps:
 
-
+9. Acesse o usuário terraform-pt-1.👋
 
 
 
