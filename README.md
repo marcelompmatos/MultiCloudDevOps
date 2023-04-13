@@ -88,11 +88,15 @@
 ```
 26. Execute o comando para habilitar as APIs do Kubernetes, Container Registry e Cloud SQL
 
+```bash
+      gcloud services enable containerregistry.googleapis.com
+      gcloud services enable container.googleapis.com
+      gcloud services enable sqladmin.googleapis.com
+```
 
+## 🛠 OBS IMPORTANTE (NÃO PULE ESTE PASSO):
 
-
-
-
+## 🛠Antes de executar os comandos do terraform, abra o Google Cloud Editor e atualizar o arquivo tcb_aws_storage.tf substituindo o nome do bucket para um exclusivo    (na AWS, os buckets precisam ter nomes únicos).
 
 
 
