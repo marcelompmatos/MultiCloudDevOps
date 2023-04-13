@@ -58,9 +58,11 @@
 
 20. Baixar projeto do git "mission1.zip".👋
 
+21. Acessar a console da GCP e abrir o Cloud Shell👋
 
+22. Fazer o upload dos arquivos accessKeys.csv e mission1.zip para o Cloud Shell👋
 
-
+23. Após fazer o upload, executar os comandos de preparação dos arquivos:
 
 
 
