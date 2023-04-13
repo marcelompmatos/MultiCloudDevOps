@@ -22,6 +22,22 @@
 
 5. Selecione AmazonS3FullAccess. 👋
 
+![image](https://user-images.githubusercontent.com/76752875/231755714-d06d4e66-dd65-4b2d-bee5-d8a44fbf8169.png)
+
+6. Clique em Next. 👋
+
+7. Revise todos os detalhes. 👋
+
+8. Clique em Create user.👋
+
+
+
+
+
+
+
+
+
 
 
 
