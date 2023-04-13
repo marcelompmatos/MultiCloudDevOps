@@ -54,6 +54,13 @@
 
 19. Com o download feito, renomeie o .csv para accessKeys.csv.👋
 
+## 🛠 Google Cloud Platform (GCP)
+
+20. Baixar projeto do git "mission1.zip".👋
+
+
+
+
 
 
 
