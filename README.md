@@ -64,14 +64,22 @@
 
 23. Após fazer o upload, executar os comandos de preparação dos arquivos:
 
-
-
-
 ```bash
-  terraform init
-  terraform plan
-  terraform apply
+       mkdir mission1_pt
+       mv mission1.zip mission1_pt
+       cd mission1_pt
+       unzip mission1.zip
+       mv ~/accessKeys.csv mission1/pt
+       cd mission1/pt
+       chmod +x *.sh
 ```
+
+
+
+
+
+
+
 
 ```bash
 Tornar o Bucket Privado - inserir o codigo no arquivo e executar os comandos "terraform plan" e "terraform apply"
