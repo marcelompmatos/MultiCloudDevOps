@@ -30,7 +30,7 @@
 
 8. Clique em Create user.👋
 
-
+⚡ [NEW] AWS has recently changed the way to create/download the access key. Follow the new steps:
 
 
 
