@@ -62,7 +62,7 @@
 
 22. Fazer o upload dos arquivos accessKeys.csv e mission1.zip para o Cloud Shell👋
 
-23. Após fazer o upload, executar os comandos de preparação dos arquivos:
+23. Após fazer o upload, executar os comandos de preparação dos arquivos:👋
 
 ```bash
        mkdir mission1_pt
@@ -73,6 +73,16 @@
        cd mission1/pt
        chmod +x *.sh
 ```
+
+24. Após fazer o upload, executar os comandos de preparação dos arquivos:👋
+
+```bash
+       ./aws_set_credentials.sh accessKeys.csv
+       gcloud config set project <your-project-id>
+```
+
+
+
 
 
 
