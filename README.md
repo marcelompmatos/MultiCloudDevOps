@@ -4,8 +4,6 @@
 
 ## 🛠 Provisionar Banco de Dados MYSQL na Google Cloud , Clusters do GKE - kubernetes e Bucket no S3 AWS 
 
-⚡ Missão 1
-
 ⚡ Amazon Web Services (AWS)
 
 1. Acessar a console da AWS. Na barra de pesquisas, digite IAM. Na seção Services, clique em IAM.  👋
