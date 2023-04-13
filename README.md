@@ -14,7 +14,15 @@
 
 ![image](https://user-images.githubusercontent.com/76752875/231753016-75ffea2d-a9ed-4c19-b264-12038c89919d.png)
 
-2. Após avançar, em Set permissions, clique no botão Attach existing policies directly.
+3. Após avançar, em Set permissions, clique no botão Attach existing policies directly. 👋
+
+![image](https://user-images.githubusercontent.com/76752875/231754740-d41b160a-dddb-4797-8c90-d23c0f0c49f2.png)
+
+4. Digite AmazonS3FullAccess em Filter distributions by text, property or value e aperte Enter. 👋
+
+5. Selecione AmazonS3FullAccess. 👋
+
+
 
 
 ```bash
