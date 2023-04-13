@@ -149,7 +149,6 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
 **Chegando até aqui, você concluiu a implementação da primeira parte do Projeto Hands-on e fez a implementação dos recursos em múltiplos provedores de Cloud utilizando o Terrraform! Parabéns! 🚀🎉**
 
 
-
 <p align="center">
 ⚡ Documentação 👋
     (https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
