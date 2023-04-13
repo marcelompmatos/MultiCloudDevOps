@@ -115,9 +115,21 @@
 }
 ```
 
+![image](https://user-images.githubusercontent.com/76752875/231773587-14add5d7-9025-4c6d-af22-2ab038ed12e7.png)
+
+![image](https://user-images.githubusercontent.com/76752875/231773765-d0ccf4cb-9cc0-426c-95bf-686f784a360d.png)
+
+
 <aside>
 💡 Após acessar o serviço do GKE para criar o cluster, clicar no botão Compare para "Comparar os modes de cluster para entender mais sobre as suas diferenças".
 </aside>
+
+## 🛠 [New] Configuração de Rede SQL:
+
+
+
+
+
 
 
 
