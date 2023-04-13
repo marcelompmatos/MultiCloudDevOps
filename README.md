@@ -44,6 +44,18 @@
 
 14. Selecione Command Line Interface (CLI) e I understand the above recommendation and want to proceed to create an access key.👋
 
+15. Clique em Next.👋
+
+16. Clique em Create access key.👋
+
+17. Clique em Download .csv file.👋
+
+18. Após o download finalizar, clique em Done.👋
+
+19. Com o download feito, renomeie o .csv para accessKeys.csv.👋
+
+
+
 
 
 ```bash
