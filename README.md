@@ -115,9 +115,8 @@
 }
 ```
 
-## 🛠 <aside>
+<aside>
 💡 Após acessar o serviço do GKE para criar o cluster, clicar no botão Compare para "Comparar os modes de cluster para entender mais sobre as suas diferenças".
-
 </aside>
 
 
