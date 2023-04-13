@@ -1,6 +1,6 @@
 # MultiCloudDevOps - Missão 1
  
-## :computer: MultiCloud com DevOps utilizando com provisionamento Terraform
+## :computer: MultiCloud com DevOps utilizando para provisionamento o Terraform
 
 ## 🛠 Provisionar Banco de Dados MYSQL na Google Cloud , Clusters do GKE - kubernetes e Bucket no S3 AWS 
 
