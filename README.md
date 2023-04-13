@@ -126,13 +126,27 @@
 
 ## 🛠 [New] Configuração de Rede SQL:
 
-<video playsinline="" controls="" preload="metadata" src="https://file.notion.so/f/s/6ab20977-4163-4519-8d2d-87fbfe5d5f8e/SQL_Networking_Configuration_EDITED.mov?id=bfb62686-39d7-4a2e-8a47-326503de96ac&amp;table=block&amp;spaceId=0d1b678b-cd91-4256-93c7-73b2e82396d5&amp;expirationTimestamp=1681479502098&amp;signature=p8rD1Bz4aup-zCVkzcc8ukNYQwUbSe7bJGh4x3jHiwg" style="display: block; pointer-events: none; width: 100%; background-color: rgb(242, 241, 238);"></video>
+- Após a conclusão do provisionamento da instância do CloudSQL, acesse o serviço do Cloud SQL.
+- Clique na sua instância do Cloud SQL.
+- Na lateral direita, em Primary Instance, clique em **“Connections”.**
+- Em **Instance IP assignment**, habilite o Private IP.
+    - Em **Associated Network**, selecione “Default”.
+    - Clique em **Set up connection**
+    - Enable **Service Networking API (se solicitar)**
+    - Selecione **Use an automatically allocated IP range in your network**.
+    - Clique em **Continue.**
+    - Clique em **Create connection** e aguarde alguns minutos.
+- Após finalizar, em **“Connections”**, **Autorized Networks**, clique em **"Adicionar Rede (Add Network)".**
+    - Em **New Network**, insira as seguintes informações:
+        - **Nome:** Public Access (Apenas para testes)
+        - **Network:** 0.0.0.0/0
+        - Clique em **Done**.
+        - Clique em **Save** e aguarde finalizar a edição do Cloud SQL Instance.
 
+PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada para o acesso ao banco de dados. 
+⚠️ Nunca fornecer acesso à rede pública (0.0.0.0/0) para os banco de dados de produção.
 
-
-
-[![asciicast]([https://asciinema.org/a/113463](https://file.notion.so/f/s/6ab20977-4163-4519-8d2d-87fbfe5d5f8e/SQL_Networking_Configuration_EDITED.mov?id=bfb62686-39d7-4a2e-8a47-326503de96ac&amp;table=block&amp;spaceId=0d1b678b-cd91-4256-93c7-73b2e82396d5&amp;expirationTimestamp=1681479502098&amp;signature=p8rD1Bz4aup-zCVkzcc8ukNYQwUbSe7bJGh4x3jHiwg))
-
+**Chegando até aqui, você concluiu a implementação da primeira parte do Projeto Hands-on e fez a implementação dos recursos em múltiplos provedores de Cloud utilizando o Terrraform! Parabéns! 🚀🎉**
 
 
 
