@@ -131,7 +131,7 @@
 
 
 
-
+[![asciicast]([https://asciinema.org/a/113463](https://file.notion.so/f/s/6ab20977-4163-4519-8d2d-87fbfe5d5f8e/SQL_Networking_Configuration_EDITED.mov?id=bfb62686-39d7-4a2e-8a47-326503de96ac&amp;table=block&amp;spaceId=0d1b678b-cd91-4256-93c7-73b2e82396d5&amp;expirationTimestamp=1681479502098&amp;signature=p8rD1Bz4aup-zCVkzcc8ukNYQwUbSe7bJGh4x3jHiwg))
 
 
 
