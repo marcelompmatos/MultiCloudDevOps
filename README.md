@@ -126,7 +126,7 @@
 
 ## 🛠 [New] Configuração de Rede SQL:
 
-
+https://file.notion.so/f/s/6ab20977-4163-4519-8d2d-87fbfe5d5f8e/SQL_Networking_Configuration_EDITED.mov?id=bfb62686-39d7-4a2e-8a47-326503de96ac&table=block&spaceId=0d1b678b-cd91-4256-93c7-73b2e82396d5&expirationTimestamp=1681477164684&signature=VsLmvyYah8vnjp4DyVjZ_4VXOKgAJsBqu7Df-oeHe5s
 
 
 
