@@ -126,7 +126,9 @@
 
 ## 🛠 [New] Configuração de Rede SQL:
 
-https://file.notion.so/f/s/6ab20977-4163-4519-8d2d-87fbfe5d5f8e/SQL_Networking_Configuration_EDITED.mov?id=bfb62686-39d7-4a2e-8a47-326503de96ac&table=block&spaceId=0d1b678b-cd91-4256-93c7-73b2e82396d5&expirationTimestamp=1681477164684&signature=VsLmvyYah8vnjp4DyVjZ_4VXOKgAJsBqu7Df-oeHe5s
+<video playsinline="" controls="" preload="metadata" src="https://file.notion.so/f/s/6ab20977-4163-4519-8d2d-87fbfe5d5f8e/SQL_Networking_Configuration_EDITED.mov?id=bfb62686-39d7-4a2e-8a47-326503de96ac&amp;table=block&amp;spaceId=0d1b678b-cd91-4256-93c7-73b2e82396d5&amp;expirationTimestamp=1681479502098&amp;signature=p8rD1Bz4aup-zCVkzcc8ukNYQwUbSe7bJGh4x3jHiwg" style="display: block; pointer-events: none; width: 100%; background-color: rgb(242, 241, 238);"></video>
+
+
 
 
 
