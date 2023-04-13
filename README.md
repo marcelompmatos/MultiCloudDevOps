@@ -81,6 +81,14 @@
        gcloud config set project <your-project-id>
 ```
 
+25. Clique em Autorize e execute o comando abaixo para setar o projeto no Google Cloud Shell
+
+```bash
+      ./gcp_set_project.sh
+```
+26. Execute o comando para habilitar as APIs do Kubernetes, Container Registry e Cloud SQL
+
+
 
 
 
