@@ -81,12 +81,12 @@
        gcloud config set project <your-project-id>
 ```
 
-25. Clique em Autorize e execute o comando abaixo para setar o projeto no Google Cloud Shell
+25. Clique em Autorize e execute o comando abaixo para setar o projeto no Google Cloud Shell.👋
 
 ```bash
       ./gcp_set_project.sh
 ```
-26. Execute o comando para habilitar as APIs do Kubernetes, Container Registry e Cloud SQL
+26. Execute o comando para habilitar as APIs do Kubernetes, Container Registry e Cloud SQL.👋
 
 ```bash
       gcloud services enable containerregistry.googleapis.com
@@ -98,23 +98,29 @@
 
 ## 🛠Antes de executar os comandos do terraform, abra o Google Cloud Editor e atualizar o arquivo tcb_aws_storage.tf substituindo o nome do bucket para um exclusivo    (na AWS, os buckets precisam ter nomes únicos).
 
+28. Na linha 4 do arquivo tcb_aws_storage.tf:👋
 
+29. Abra o Google Cloud Editor:👋
 
+30. Substituir xxxx pelas iniciais do seu nome mais dois números: Exemplo: luxxy-covid-testing-system-pdf-pt-jr29:👋
 
-
+29. Execute os seguintes comandos para provisionar os recursos de infraestrutura:👋
 
 ```bash
-Tornar o Bucket Privado - inserir o codigo no arquivo e executar os comandos "terraform plan" e "terraform apply"
+       cd ~/mission1_pt/mission1/pt/terraform/
 
-  resource "aws_s3_bucket_public_access_block" "s3_block" {
-  bucket = aws_s3_bucket.s3_bucket.id
-
-  block_public_acls       = true
-  block_public_policy     = true
-  ignore_public_acls      = true
-  restrict_public_buckets = true
+       terraform init
+       terraform plan
+       terraform apply
 }
 ```
+
+## 🛠 <aside>
+💡 Após acessar o serviço do GKE para criar o cluster, clicar no botão Compare para "Comparar os modes de cluster para entender mais sobre as suas diferenças".
+
+</aside>
+
+
 
 
 <p align="center">
