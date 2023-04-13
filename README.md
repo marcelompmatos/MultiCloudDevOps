@@ -2,16 +2,19 @@
  
 ## :computer: MultiCloud com DevOps utilizando com provisionamento Terraform
 
-⚡ MultiCloud com DevOps 
 ## 🛠 Provisionar Banco de Dados MYSQL na Google Cloud , Clusters do GKE - kubernetes e Bucket no S3 AWS 
 
+⚡ Missão 1
+
+⚡ Amazon Web Services (AWS)
+
+1. Acessar a console da AWS. Na barra de pesquisas, digite IAM. Na seção Services, clique em IAM.  👋
+
+2. Clique em Add user, insira o nome terraform-pt-1 e clique em Next para criar o usuário do tipo programmatic.  👋
 
 
 
 
-
-1. No terminal da AWS opçao action efetuar o upload do arquivo "main.tf"  👋
-2. Depois do upoload do Arquivo iremos executar comando do "Terraform "  👋
 
 ```bash
   terraform init
