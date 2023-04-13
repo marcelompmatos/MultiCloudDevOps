@@ -33,8 +33,9 @@
 ⚡ [NEW] AWS has recently changed the way to create/download the access key. Follow the new steps:
 
 9. Acesse o usuário terraform-pt-1.👋
-
-
+10. Clique em Security credentials.👋
+11. Navegue até a seção Access keys.👋
+12. Clique em Create access key.👋
 
 
 
