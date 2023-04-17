@@ -159,14 +159,47 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
 ![image](https://user-images.githubusercontent.com/76752875/232621454-11b48ace-5934-41f7-86f9-f7a7e8396bf3.png)
 
 
-3. Após avançar, em Set permissions, clique no botão Attach existing policies directly.
+3. Após avançar, em Set permissions, clique no botão Attach existing policies directly.👋
 
 ![image](https://user-images.githubusercontent.com/76752875/232621552-9df75114-9dc3-41fa-9ff8-9a1800e9eb21.png)
 
-4. Digite AmazonS3FullAccess em Filter distributions by text, property or value e aperte Enter. 
+4. Digite AmazonS3FullAccess em Filter distributions by text, property or value e aperte Enter. 👋
 
-5. Selecione AmazonS3FullAccess. 
+5. Selecione AmazonS3FullAccess. 👋
 
+6. Selecione AmazonS3FullAccess👋
+
+![image](https://user-images.githubusercontent.com/76752875/232621838-65d24999-0b30-41df-8a2f-431f2461771d.png)
+
+7. Clique em Next👋
+
+8. Revise todos os detalhes
+
+9. Clique em Create user
+
+## :Passos para fazer o download da chave de acesso
+
+10. Acesse o usuário luxxy-covid-testing-system-pt-app1👋
+
+11. Clique em Security credentials👋
+
+12. Navegue até a seção Access keys👋
+ 
+13. Clique em Create access key 👋
+
+![image](https://user-images.githubusercontent.com/76752875/232622726-1a84ff5c-e53a-4048-a520-da64d87e78bd.png)
+
+13.Selecione Command Line Interface (CLI) e I understand the above recommendation and want to proceed to create an access key. 👋
+
+14. Clique em Next.👋
+
+15. Clique em Create access key.👋
+
+16. Clique em Download .csv file.👋
+
+17. Após o download finalizar, clique em Done.👋
+
+18. Com o download feito, renomeie o .csv para accessKeys.csv👋
 
 
 <p align="center">
