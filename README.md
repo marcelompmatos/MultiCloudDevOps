@@ -242,12 +242,65 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
   gcloud services enable cloudbuild.googleapis.com
 ```
 
+## :Known issue during this step
 
 
+```bash
+  ERROR: (gcloud.builds.submit) INVALID_ARGUMENT: could not resolve source: googleapi: Error 403: 989404026119@cloudbuild.gserviceaccount.com does not have storage.objects.get access to the Google Cloud Storage object., forbidden
+
+  Para solucionar:
+
+  1. Acesse o IAM & Admin;
+  2. Clique na sua Cloud Build Service Account
+
+  Exemplo: 989404026119@cloudbuild.gserviceaccount.com Cloud Build Service Account
+
+  3. Na sua Cloud Build Service Account, do lado direito, clique em Edit principal
+  4. Clique em Add another role (Adicionar outra função);
+  5. Clique em Select Role, e filtre por Storage Admin ou gcs. Selecione Storage Admin (Full control of GCS resources).
+  6. Clique em Save and retorno para o Cloud Shell.
+```
+
+25. Faça o Build da Docker image e suba para o Google Container Registry. Por gentileza, substitua o <PROJECT_ID> com o My First Project ID.👋
+
+```bash
+  cd ~/mission2_pt/mission2/pt/app
+  gcloud builds submit --tag gcr.io/<PROJECT_ID>/luxxy-covid-testing-system-app-pt
+```
+
+26. Abra o Cloud Editor e edite o Kubernetes deployment file (luxxy-covid-testing-system.yaml) e atualize as variáveis abaixo (em vermelho) com o seu <PROJECT_ID> no caminho da imagem Docker no Google Container Registry, AWS Bucket, AWS Keys (do arquivo luxxy-covid-testing-system-pt-app1.csv) e o IP Privado do Cloud SQL Database.👋
 
 
+```bash
+  cd ~/mission2_pt/mission2/pt/kubernetes
+  luxxy-covid-testing-system.yaml
+
+  image: gcr.io/<PROJECT_ID>/luxxy-covid-testing-system-app-pt:latest
+
+  - name: AWS_BUCKET
+  value: "luxxy-covid-testing-system-pdf-pt-xxxx"
+  - name: S3_ACCESS_KEY
+  value: "xxxxxxxxxxxxxxxxxxxxx"
+  - name: S3_SECRET_ACCESS_KEY
+  value: "xxxxxxxxxxxxxxxxxxxx"
+  - name: DB_HOST_NAME
+  value: "172.21.0.3"
+  
+```
+
+27. Se conecte ao GKE (Google Kubernetes Engine) cluster via Console (seguir video).👋
+
+28. Faça o Deploy da aplicação COVID-19 Testing Status System no Cluster.👋
 
 
+```bash
+  cd ~/mission2_pt/mission2/pt/kubernetes
+  kubectl apply -f luxxy-covid-testing-system.yaml
+```
+
+30. Você deve visualizar a aplicação up & running! Congrats! 🎉👋
+
+![image](https://user-images.githubusercontent.com/76752875/232625873-208e9993-2f13-4514-88f7-dcb0218ac66e.png)
 
 
 <p align="center">
