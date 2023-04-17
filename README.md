@@ -209,7 +209,6 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
 
 21. Faça o download dos arquivos da missão 2 diretamente para o Cloud Shell usando o comando wget abaixo:👋
 
-
 ```bash
   cd
   mkdir mission2_pt
@@ -217,6 +216,33 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
   wget https://tcb-public-events.s3.amazonaws.com/icp/mission2.zip
   unzip mission2.zip
 ```
+
+22. Conecte ao MySQL DB em execução no Cloud SQL (assim que aparecer a janela para colocar a senha, insira welcome123456)👋
+
+```bash
+  mysql --host=<public_ip_cloudsql> --port=3306 -u app -p
+```
+
+23. Após estar conectado ao banco de dados da instância, crie a tabela de produtos para testes.👋
+
+
+```bash
+  use dbcovidtesting;
+  source mission2/pt/db/create_table.sql;
+  show tables;
+  exit;
+```
+
+24. Habilite a Cloud Build API através do Cloud Shell.👋
+
+
+```bash
+  # Comando para habilitar Cloud Build API
+
+  gcloud services enable cloudbuild.googleapis.com
+```
+
+
 
 
 
