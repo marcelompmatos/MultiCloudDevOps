@@ -147,6 +147,28 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
 **Chegando até aqui, você concluiu a implementação da primeira parte do Projeto Hands-on e fez a implementação dos recursos em múltiplos provedores de Cloud utilizando o Terrraform! Parabéns! 🚀🎉**
 
 
+# MultiCloudDevOps - Missão 2
+
+## :computer: Amazon Web Services
+
+1. Execute os seguintes comandos para provisionar os recursos de infraestrutura:👋
+
+2. Clique em Add user, insira o nome luxxy-covid-testing-system-pt-app1 e clique em Next para criar o usuário do tipo programmatic.👋
+
+
+![image](https://user-images.githubusercontent.com/76752875/232621454-11b48ace-5934-41f7-86f9-f7a7e8396bf3.png)
+
+
+3. Após avançar, em Set permissions, clique no botão Attach existing policies directly.
+
+![image](https://user-images.githubusercontent.com/76752875/232621552-9df75114-9dc3-41fa-9ff8-9a1800e9eb21.png)
+
+4. Digite AmazonS3FullAccess em Filter distributions by text, property or value e aperte Enter. 
+
+5. Selecione AmazonS3FullAccess. 
+
+
+
 <p align="center">
 ⚡ Documentação 👋
     (https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
