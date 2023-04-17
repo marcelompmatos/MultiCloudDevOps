@@ -201,6 +201,28 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
 
 18. Com o download feito, renomeie o .csv para accessKeys.csv👋
 
+## :Google Cloud Platform (GCP)
+
+19. Navegue até a Cloud SQL instance e crie um novo usuário app com a senha welcome123456 no Cloud SQL MySQL database👋
+
+20. Se conecte ao Google Cloud Shell👋
+
+21. Faça o download dos arquivos da missão 2 diretamente para o Cloud Shell usando o comando wget abaixo:👋
+
+
+```bash
+  cd
+  mkdir mission2_pt
+  cd mission2_pt
+  wget https://tcb-public-events.s3.amazonaws.com/icp/mission2.zip
+  unzip mission2.zip
+```
+
+
+
+
+
+
 
 <p align="center">
 ⚡ Documentação 👋
