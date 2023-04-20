@@ -288,6 +288,8 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
   
 ```
 
+## :computer: Atenção entrar via console e pegar a conexao no GKE clicar em "CONECTAR" 👋👋👋👋👋👋👋👋👋👋
+
 27. Se conecte ao GKE (Google Kubernetes Engine) cluster via Console (seguir video).👋
 
 28. Faça o Deploy da aplicação COVID-19 Testing Status System no Cluster.👋
