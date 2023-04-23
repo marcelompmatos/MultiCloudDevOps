@@ -311,3 +311,17 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
 </p>   
 
 # MultiCloudDevOps - Missão 3
+
+## :computer: Google Cloud Platform - Passos para Migração do Banco de Dados MySQL
+
+1. Conectar ao Google Cloud Shell.👋
+
+2. Download o dump do banco de dados.👋
+
+
+
+
+
+
+
+
