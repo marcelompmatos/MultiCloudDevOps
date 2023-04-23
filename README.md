@@ -320,6 +320,26 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
   unzip mission3.zip
  ```
 
+3. Conectar ao banco de dados MySQL no Cloud SQL. Senha: welcome123456.👋
+
+
+```bash
+  mysql --host=<public_ip_address> --port=3306 -u app -p
+ ```
+ 
+4. Importar o dump do banco de dados no Cloud SQL.👋
+
+```bash
+ use dbcovidtesting;
+ source ~/mission3_pt/mission3/pt/db/db_dump.sql
+ ```
+
+5. Checar se os dados foram importados com sucesso.👋 
+
+```bash
+ SELECT * FROM records;
+ exit;
+ ```
 
 
 <p align="center">
