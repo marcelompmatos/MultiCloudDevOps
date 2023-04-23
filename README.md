@@ -304,12 +304,6 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
 
 ![image](https://user-images.githubusercontent.com/76752875/232625873-208e9993-2f13-4514-88f7-dcb0218ac66e.png)
 
-
-<p align="center">
-⚡ Documentação 👋
-    (https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-</p>   
-
 # MultiCloudDevOps - Missão 3
 
 ## :computer: Google Cloud Platform - Passos para Migração do Banco de Dados MySQL
@@ -318,6 +312,20 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
 
 2. Download o dump do banco de dados.👋
 
+```bash
+  cd
+  mkdir mission3_pt
+  cd mission3_pt
+  wget https://tcb-public-events.s3.amazonaws.com/icp/mission3.zip
+  unzip mission3.zip
+ ```
+
+
+
+<p align="center">
+⚡ Documentação 👋
+    (https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+</p> 
 
 
 
