@@ -341,6 +341,30 @@ PS: Para ambientes de produção, é recomendado utilizar apenas a Rede Privada 
  exit;
  ```
 
+## :computer: Amazon Web Services - Passos para a Migração dos arquivos PDF
+
+1. Conectar no AWS Cloud Shell
+
+2. Download dos arquivos PDF (Comprovante de teste negativo escaneado em PDF)
+
+```bash
+ mkdir mission3_pt
+ cd mission3_pt
+ wget https://tcb-public-events.s3.amazonaws.com/icp/mission3.zip
+ unzip mission3.zip
+ ```
+3. Sincronizar os arquivos PDF com o seu bucket criado no AWS S3 usado para o COVID-19 Testing Status System. Altere o nome do bucket para o seu bucket.
+
+```bash
+ cd mission3/pt/pdf_files
+ aws s3 sync . s3://luxxy-covid-testing-system-pdf-pt-xxxx
+ ```
+ 
+ 4. Testar a aplicação. Ao testar a aplicação e navegar na opção "Ver registros" você deverá ser capaz de visualizar os dados importados!
+  
+
+![image](https://user-images.githubusercontent.com/76752875/233845753-0f6c726d-bef5-4e0d-ab29-5f08e4b7499d.png)
+
 
 <p align="center">
 ⚡ Documentação 👋
